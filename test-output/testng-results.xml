@@ -1,39 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="43" started-at="2021-06-07T12:41:12Z" finished-at="2021-06-07T12:41:12Z">
+  <suite name="Default suite" duration-ms="9203" started-at="2021-06-30T10:50:15Z" finished-at="2021-06-30T10:50:25Z">
     <groups>
     </groups>
-    <test name="testng.xml" duration-ms="43" started-at="2021-06-07T12:41:12Z" finished-at="2021-06-07T12:41:12Z">
-      <class name="com.jenkins.demo.SampleTest_2">
-        <test-method status="PASS" signature="test_one()[pri:1, instance:com.jenkins.demo.SampleTest_2@643b1d11]" name="test_one" duration-ms="1" started-at="2021-06-07T12:41:12Z" finished-at="2021-06-07T12:41:12Z">
+    <test name="Default test" duration-ms="9203" started-at="2021-06-30T10:50:15Z" finished-at="2021-06-30T10:50:25Z">
+      <class name="com.report.demo.TC_2_LaunchGoogle">
+        <test-method status="PASS" signature="launchapp()[pri:0, instance:com.report.demo.TC_2_LaunchGoogle@49e53c76]" name="launchapp" duration-ms="2285" started-at="2021-06-30T10:50:15Z" finished-at="2021-06-30T10:50:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_one -->
-        <test-method status="PASS" signature="test_two()[pri:2, instance:com.jenkins.demo.SampleTest_2@643b1d11]" name="test_two" duration-ms="2" started-at="2021-06-07T12:41:12Z" finished-at="2021-06-07T12:41:12Z">
+        </test-method> <!-- launchapp -->
+      </class> <!-- com.report.demo.TC_2_LaunchGoogle -->
+      <class name="com.report.demo.TC_3_LaunchYatra">
+        <test-method status="PASS" signature="launchapp()[pri:0, instance:com.report.demo.TC_3_LaunchYatra@35d019a3]" name="launchapp" duration-ms="3848" started-at="2021-06-30T10:50:21Z" finished-at="2021-06-30T10:50:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_two -->
-        <test-method status="PASS" signature="test_three()[pri:3, instance:com.jenkins.demo.SampleTest_2@643b1d11]" name="test_three" duration-ms="2" started-at="2021-06-07T12:41:12Z" finished-at="2021-06-07T12:41:12Z">
+        </test-method> <!-- launchapp -->
+      </class> <!-- com.report.demo.TC_3_LaunchYatra -->
+      <class name="com.report.demo.TC_1_LaunchAmazon">
+        <test-method status="PASS" signature="launchapp()[pri:0, instance:com.report.demo.TC_1_LaunchAmazon@55b699ef]" name="launchapp" duration-ms="3039" started-at="2021-06-30T10:50:18Z" finished-at="2021-06-30T10:50:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_three -->
-      </class> <!-- com.jenkins.demo.SampleTest_2 -->
-      <class name="com.jenkins.demo.SampleTest_1">
-        <test-method status="PASS" signature="test_one()[pri:1, instance:com.jenkins.demo.SampleTest_1@6cc4c815]" name="test_one" duration-ms="8" started-at="2021-06-07T12:41:12Z" finished-at="2021-06-07T12:41:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_one -->
-        <test-method status="PASS" signature="test_two()[pri:2, instance:com.jenkins.demo.SampleTest_1@6cc4c815]" name="test_two" duration-ms="1" started-at="2021-06-07T12:41:12Z" finished-at="2021-06-07T12:41:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_two -->
-        <test-method status="PASS" signature="test_three()[pri:3, instance:com.jenkins.demo.SampleTest_1@6cc4c815]" name="test_three" duration-ms="2" started-at="2021-06-07T12:41:12Z" finished-at="2021-06-07T12:41:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_three -->
-      </class> <!-- com.jenkins.demo.SampleTest_1 -->
-    </test> <!-- testng.xml -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- launchapp -->
+      </class> <!-- com.report.demo.TC_1_LaunchAmazon -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="testng.xml">
+  <test thread-count="5" name="Test_1">
     <classes>
-      <class name="com.jenkins.demo.SampleTest_1"/>
-      <class name="com.jenkins.demo.SampleTest_2"/>
+      <class name="com.report.demo.TC_1_LaunchAmazon"/>
+      <class name="com.report.demo.TC_3_LaunchYatra"/>
+      <class name="com.report.demo.TC_2_LaunchGoogle"/>
     </classes>
-  </test> <!-- testng.xml -->
+  </test> <!-- Test_1 -->
 </suite> <!-- Suite -->
