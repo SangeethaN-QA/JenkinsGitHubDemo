@@ -6,6 +6,7 @@
       <class name="com.report.demo.TC_1_LaunchAmazon"/>
       <class name="com.report.demo.TC_3_LaunchYatra"/>
       <class name="com.report.demo.TC_2_LaunchGoogle"/>
+      <class name="com.report.demo.TC_3_LaunchYatraFail"/>
     </classes>
   </test> <!-- Test_1 -->
 </suite> <!-- Suite -->
